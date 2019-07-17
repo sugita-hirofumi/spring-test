@@ -63,7 +63,7 @@ public class MyDataDaoImpl implements MyDataDao<MyData> {
 		return list;
 	}
 	
-	//@SuppressWarnings("unchecked")
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<MyData> findByAge(int min, int max){
 		return (List<MyData>)entityManager.createNamedQuery("findByAge").
