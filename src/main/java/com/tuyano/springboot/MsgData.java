@@ -33,7 +33,6 @@ public class MsgData {
 	
 	public MsgData() {
 		super();
-		
 		mydata = new MyData();
 	}
 
